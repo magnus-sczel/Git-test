@@ -1,0 +1,25 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: lightblue;
+}
+body {
+    background-color: #f1f1ff;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100%;
+}
+.wrapper {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: #1b115c;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+}
+.wrapper > * {
+    grid-column: span 1;
+}
+
