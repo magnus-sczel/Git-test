@@ -22,4 +22,7 @@ body {
 .wrapper > * {
     grid-column: span 1;
 }
+main {
+    background-color: #70cbf4;
+}
 
