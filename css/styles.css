@@ -29,6 +29,23 @@ body {
     padding: 0;
     height: 75vh;
 }
+.hero-content {
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+[class*='cta'] {
+    background-color: #f7f4c874;
+    border: none;
+    color:rgb(25, 29, 8);
+    padding: 10px 20px;
+    border-radius: 3px;
+}
+[class*='cta']:hover {
+    background-color: orangered;
+    color: #fbf9e7;
+    cursor: pointer;
+}
 nav {
     background-color: #1f1f1e;
     border-bottom: 1px dotted darkgoldenrod;
@@ -49,6 +66,9 @@ nav {
     height: 100%;
     padding: 0 20px;
     line-height: 60px;
+}
+.navbar > li:first-child {
+    padding: 0 20px 0 0;
 }
 .logo {
     margin-right: auto;
