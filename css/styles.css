@@ -46,6 +46,14 @@ body {
     color: #fbf9e7;
     cursor: pointer;
 }
+.cta-first {
+    background-color: orangered;
+    color: #fbf9e7;
+}
+.cta-first:hover {
+    background-color: #fbf9e7;
+    color: orangered;
+}
 nav {
     background-color: #1f1f1e;
     border-bottom: 1px dotted darkgoldenrod;
