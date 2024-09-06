@@ -52,7 +52,7 @@ body {
 }
 .cta-first:hover {
     background-color: #fbf9e7;
-    color: #1f1f1e;
+    color: orangered;
 }
 nav {
     background-color: #1f1f1e;
